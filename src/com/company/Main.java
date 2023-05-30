@@ -21,6 +21,9 @@ public class Main {
                     writer.write(str + ": OK");
                     return;
                 }
+                writer.write(str + " : Ip is not correct");
+            }
+            else {
                 writer.write(str + " : Error");
             }
         } catch (IOException ex) {
